@@ -26,7 +26,7 @@ function GroupBuying(props) {
       <span>공동구매</span>
       <div className={Styles.container2}>
         {items.map((x, idx) => (
-          <div>
+          <div key={idx}>
             <img
               src={x.image_url}
               style={{
