@@ -12,7 +12,7 @@
 }
 .midam_box {
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 4fr 2fr;
+  display: flex;
+  flex-direction: column;
   padding: 5px 0;
 }

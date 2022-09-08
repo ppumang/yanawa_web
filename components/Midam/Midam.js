@@ -4,7 +4,7 @@ import Styles from "./Midam.module.css";
 let midams = [
   {
     name: "최의현",
-    comment: "야나와 앱에 칭찬합니다 칸 아이디어를 제공해줬어요",
+    comment: "야나와 앱에 칭찬합니다 게시판 아이디어를 제공해줬어요",
     hint: "하남자임",
   },
   {
