@@ -1,0 +1,12 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.mb_wrapper {
+  width: 100%;
+  max-width: 700px;
+}

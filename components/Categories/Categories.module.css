@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  overflow: scroll;
+  width: 100%;
+  margin: 20px 0;
+}
+.font1 {
+  font-size: 20px;
+  color: black;
+}
+.container2 {
+  margin: 10px;
+}
