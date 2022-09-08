@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  margin: 20px 0;
+}
+.container2 {
+  padding-top: 20px;
+}
+.profile_box {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.profile_image {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 0 10px 0 0;
+}

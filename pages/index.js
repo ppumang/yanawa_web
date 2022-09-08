@@ -5,6 +5,9 @@ import Styles from "../styles/index.module.css";
 import Header from "../components/Header/Header";
 import Banner from "../components/Banner/Banner";
 import Trend from "../components/Trend/Trend";
+import Midam from "../components/Midam/Midam";
+import Hot from "../components/Hot/Hot";
+import GroupBuying from "../components/GroupBuying/GroupBuying";
 
 export default function index() {
   return (
@@ -20,6 +23,9 @@ export default function index() {
         <Banner />
         <Categories />
         <Trend />
+        <Midam />
+        <Hot />
+        <GroupBuying />
       </div>
 
       {/* <footer className={Styles.footer}>

@@ -8,6 +8,11 @@ let categories = [
     comment: "혼밥 시러... 같이 맛집 갈 사람!",
   },
   {
+    name: "한잔해",
+    image_url: "/images/category-drink.jpeg",
+    comment: "인생 쉽지 않네... 적셔!",
+  },
+  {
     name: "공유 배달",
     image_url: "/images/category-delivery.jpeg",
     comment: "같이 마라탕 시켜먹을 사람?",
@@ -29,6 +34,11 @@ let categories = [
     comment: "시험공부 혼자 하니까 힘이 안난다... 친구야 같이하자!",
   },
   {
+    name: "칭찬합니다",
+    image_url: "/images/category-clap.png",
+    comment: "-98년생 미담 모음-",
+  },
+  {
     name: "반려견 산책",
     image_url: "/images/category-dogs.jpeg",
     comment: "우리 버터 산책시켜줘야 하는데 같이 할 친구 있어?",
@@ -38,8 +48,8 @@ let categories = [
 function Categories(props) {
   return (
     <div className={Styles.container}>
-      {categories.map((x) => (
-        <div>
+      {categories.map((x, idx) => (
+        <div key={idx}>
           <div
             style={{
               backgroundImage: `url(${x.image_url})`,
